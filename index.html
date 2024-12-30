@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Online Store</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Discover Amazing Deals!</h2>
+        <p>Shop the latest products at unbeatable prices.</p>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <!-- Product 1: Smart Watch -->
+            <div class="product" data-name="Smart Watch" data-price="150">
+                <h3>Smart Watch</h3>
+                <p>Price: $150</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <!-- Product 2: Shoe -->
+            <div class="product" data-name="Shoe" data-price="80">
+                <h3>Shoe</h3>
+                <p>Price: $80</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+    
+            <!-- Product 3: Helmet -->
+            <div class="product" data-name="Helmet" data-price="120">
+                <h3>Helmet</h3>
+                <p>Price: $120</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+    
+            <!-- Product 4: Accessories -->
+            <div class="product" data-name="Accessories" data-price="50">
+                <h3>Accessories</h3>
+                <p>Price: $50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Online Store. All rights reserved.</p>
+        <nav>
+            <a href="#facebook">Facebook</a>
+            <a href="#twitter">Twitter</a>
+            <a href="#instagram">Instagram</a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a1a2e;
+    color: #e4e4e7;
+}
+
+/* Header */
+header {
+    background: #0f3460;
+    color: #e4e4e7;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8em;
+}
+
+header nav a {
+    color: #00d4ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #f9a826;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #16213e;
+    color: #f9a826;
+    padding: 40px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Product Grid */
+#products {
+    padding: 30px 20px;
+    background: #1a1a2e;
+}
+
+#products h2 {
+    text-align: center;
+    color: #f9a826;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    background: #0f3460;
+    border: 2px solid #f9a826;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 220px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+button {
+    background: #f9a826;
+    color: #0f3460;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+button:hover {
+    background: #00d4ff;
+    color: #1a1a2e;
+}
+
+/* Cart Section */
+#cart {
+    padding: 30px 20px;
+    background: #16213e;
+    color: #e4e4e7;
+}
+
+#cart h2 {
+    color: #f9a826;
+    text-align: center;
+    font-size: 2em;
+}
+
+#cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #0f3460;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #0f3460;
+    color: #e4e4e7;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer nav a {
+    color: #00d4ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    color: #f9a826;
+}
